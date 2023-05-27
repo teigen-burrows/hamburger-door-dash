@@ -52,7 +52,9 @@ for iCount in range(0, 100):
   lstCustomer.append([oCustomer.customer_name, oCustomer.order])
   # Create the Dictionary
   dictCustomer[oCustomer.customer_name] += oCustomer.order
-
+  # Pop off of the queue
+  lstCustomer.pop(0)
+    
 # Sort the customers based on their total burgers consumed
 lstSortedCustomers = sorted(dictCustomer.items(), key=lambda x: x[1], reverse=True)
 
