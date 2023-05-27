@@ -26,7 +26,7 @@ class Customer(Person):
         super().__init__()
         self.order = Order().randomBurgers()
 
-# This is the Order class that has an aggregate relationship with the Customer. This class has a method contained within it that will _
+# This is the Order class that has an aggregate relationship with the Customer. This class has a method contained within it that will
 # obtain the number of burgers that each customer/person gets.
 class Order():
     def __init__(self):
