@@ -5,7 +5,7 @@
 # Import Random Library
 import random
 
-# Create a class for each person that retrieves a person's name _
+# Create a class for each person that retrieves a person's name 
 # and assigns it to a customer (see inheritance relationship from Person to Customer).
 class Person():
     def __init__(self):
@@ -19,8 +19,8 @@ class Person():
         customer_index_selection = customer_list[random.randint(0, (len(customer_list)-1))]
         return customer_index_selection
     
-# The CUstomer class inherits from the Person class.
-# This class will create an instnace variable that is assigned to the Order object.
+# The Customer class inherits from the Person class.
+# This class will create an instance variable that is assigned to the Order object.
 class Customer(Person):
     def __init__(self):
         super().__init__()
