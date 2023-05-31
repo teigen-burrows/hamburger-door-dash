@@ -1,5 +1,5 @@
 # Team 15
-# Jake Gillespie, Teigen Burrows, Lily Tait, Zach Tullis
+# Jake Gillespie, Teigen Burrows, Lily Tait, Zach Tullis, Shandon Lindquist
 # Door Dash Group Project
 
 # Import Random Library
